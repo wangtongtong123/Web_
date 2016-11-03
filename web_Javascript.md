@@ -1,5 +1,5 @@
 ###1、javascript的typeof返回那些数据类型
-    Object number function booleanunderfind
+    Object、 number、 function、 boolean、 string、 underfind
 ###2、例举3种强制类型转换和2种隐式类型转换？
     强制（parseInt,parseFloat,number）
     隐式（== 、 ===）
@@ -86,4 +86,15 @@
      return newArr
      }
      </arr.length;i++>
+     
+###18、eval是做什么的？
+      eval的功能是把对应的字符串解析成JS代码并运行；我们应该避免使用eval，因为他不安全而且非常耗能。
+      
+###19、Node.js的适用场景？
+      高并发、聊天、实时消息推送
+      
+###20、Javascript如何实现继承？
+       通过原型和构造器
+###21、Javascript中有一个函数，执行对象查找时，永远不会失去查找原型，这个函数是？
+       hasOwnProperty
      
